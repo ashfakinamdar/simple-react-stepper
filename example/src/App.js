@@ -1,10 +1,13 @@
 import React from 'react'
-
-import { ExampleComponent } from 'simple-react-stepper'
+import ReactStepper from 'simple-react-stepper'
 import 'simple-react-stepper/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <ReactStepper currenPage={2} noOfSteps={4} />
+    </div>
+  )
 }
 
 export default App

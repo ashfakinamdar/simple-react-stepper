@@ -1,0 +1,65 @@
+.stepper {
+  background: #f3f3f3;
+  border: 1px solid #5e9c9c;
+  color: #5e9c9c;
+  font-family: Futura Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.59px;
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 41px;
+  position: relative;
+}
+.activeStep {
+  background: #5e9c9c;
+  border: 1px solid #5e9c9c;
+  color: #f3f3f3;
+  font-family: Futura Std;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.59px;
+  width: 24px;
+  height: 24px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 41px;
+  position: relative;
+}
+.marginRightZero {
+  margin-right: 0px !important;
+}
+.stepper:last-child {
+  margin-right: 0px !important;
+}
+.stepper:last-child .stepperDivider {
+  display: none;
+}
+
+.stepperFlex {
+  display: flex;
+  justify-content: center;
+}
+.stepperDivider {
+  width: 43px;
+  height: 0px;
+  background-color: #5e9c9c;
+  border-color: #5e9c9c;
+  position: absolute;
+  left: 25px;
+  border-top: 1px solid #5e9c9c !important;
+  margin: 0px !important;
+}
+.hideDivider {
+  margin: 0px !important;
+}

@@ -11,6 +11,17 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "stepper",
+    "simple-react-stepper",
+    "react-component"
+  ],
+  "author": {
+    "name": "Ashfak Inamdar",
+    "email": "ashpaq.inamdar@mindbowser.com"
+  },
+  "homepage": "https://github.com/ashpaqinamdar/simple-react-stepper",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",

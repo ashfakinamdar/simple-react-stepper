@@ -13,16 +13,19 @@ npm install --save simple-react-stepper
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'simple-react-stepper'
+import React from 'react'
+import ReactStepper from 'simple-react-stepper'
 import 'simple-react-stepper/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return (
+    <div>
+      <ReactStepper currenPage={2} noOfSteps={4} />
+    </div>
+  )
 }
+
+export default App
 ```
 
 ## License
